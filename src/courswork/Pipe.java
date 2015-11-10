@@ -10,7 +10,7 @@ package courswork;
 
 /**
  * as the abstract classes are now available for use, this class is for
- * specifying what sort of pipes are available to the system
+ * specifying what sort of pipes are available to the ordering system
  */
 
 public class Pipe {
