@@ -1,14 +1,25 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package my.pipesrus;
+package courswork;
 
 /**
+ * ADPROC Coursework 2015.
  *
- * @author up750148
+ * ORDER SYSTEM FOR A PIPE-SELLING COMPANY
+ *
+ * @authors 750430 & 750148
  */
+
+/**
+ * we can build some validation into here, i think that entails something like:
+ * private static int maximumLengthOfPipe = 6 ... but need to think about this
+ * the diameter is user defined, but needs some validation checking - maybe a double
+ * 
+ * need to implement some validation to display what is happening / valid / invalid pipe
+ * 
+ * also need to allow for multiple orders
+ * 
+ * @author up750430
+ */
+
 public class PipesRusGUI extends javax.swing.JFrame {
 
     /**
@@ -152,6 +163,11 @@ public class PipesRusGUI extends javax.swing.JFrame {
         jRadioButton18.setText("Not Important");
 
         jTextField1.setText("jTextField1");
+        jTextField1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField1ActionPerformed(evt);
+            }
+        });
 
         jTextField2.setText("jTextField2");
 
@@ -364,6 +380,21 @@ public class PipesRusGUI extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jRadioButton12ActionPerformed
 
+    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+        // text box for pipe length:
+        
+    }//GEN-LAST:event_jTextField1ActionPerformed
+
+    /**
+     * Validation of pipe length & diameter
+     */
+    private static final int maximumLengthOfPipe = 6;
+    private static final double minimumLengthOfPipe = 0.5;
+    private static final int maximumRadius = 20;
+    private static final double minimumRadius = 0.25;
+    
+    
+    
     /**
      * @param args the command line arguments
      */
