@@ -9,7 +9,7 @@ package courswork;
  * @author up750148
  */
 public class Main {
-
+    
     /**
      * @param args the command line arguments
      */
@@ -19,11 +19,11 @@ public class Main {
     
     public void v()
     {
-        if (outerReinforcement)
+        if (pipeOuterReinforcement)
         {
-            if (innerInsulation)
+            if (pipeInnerInsulation)
             {
-                if (2 < plasticGrade && plasticGrade < 6)
+                if (2 < pipeGrade && pipeGrade < 6)
                 {
                     System.out.println("We do provide this pipe, it would come to a total of £" + pricePerPiper + ", and £" + totalPrice ". Would you like to order any other types of pipe?");
                     if (anotherOrder)
