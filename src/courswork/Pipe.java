@@ -22,13 +22,13 @@ import java.awt.Color;
 public abstract class Pipe {
 
     //private PipeType pipeGrade; //pulls in the pipeGrade int array from PipeType class
-    private final double pipeLength; //new variable, int for pipeLength
+    private double pipeLength; //new variable, int for pipeLength
     private double outerRadius;
     private int plasticGrade;
     private boolean isItInsulated;
     private boolean isItReinforced;
     private boolean checmicalResistant;
-    private Color[] pipeColour; //an array of Colours from the Color object.
+    private PipeColour pipeColour; //an object.
     private final PipeType pipeGrade;
     
 
@@ -57,4 +57,7 @@ public abstract class Pipe {
    protected double finalCost (){
         return 0;       
    }
+   
+   
+   
 }

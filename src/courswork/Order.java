@@ -44,8 +44,7 @@ public class Order {
     private double areaOfPipe;
     
     public Order(Pipe pipe, double areaOfPipe) {
-        Pipe = pipe;
-        areaOfPipe = areaOfPipe;
+        Pipe Pipe = pipe;
     }
         
     
