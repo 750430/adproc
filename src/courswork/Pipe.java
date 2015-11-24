@@ -1,4 +1,4 @@
-package courswork;
+package coursework;
 
 import java.awt.Color;
 

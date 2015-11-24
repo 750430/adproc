@@ -1,25 +1,14 @@
-package courswork;
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package my.pipesrus;
 
 /**
- * ADPROC Coursework 2015.
  *
- * ORDER SYSTEM FOR A PIPE-SELLING COMPANY
- *
- * @authors 750430 & 750148
+ * @author up750148
  */
-
-/**
- * we can build some validation into here, i think that entails something like:
- * private static int maximumLengthOfPipe = 6 ... but need to think about this
- * the diameter is user defined, but needs some validation checking - maybe a double
- * 
- * need to implement some validation to display what is happening / valid / invalid pipe
- * 
- * also need to allow for multiple orders
- * 
- * @author up750430
- */
-
 public class PipesRusGUI extends javax.swing.JFrame {
 
     /**
@@ -42,42 +31,48 @@ public class PipesRusGUI extends javax.swing.JFrame {
         jTextField7 = new javax.swing.JTextField();
         jRadioButton6 = new javax.swing.JRadioButton();
         jRadioButton9 = new javax.swing.JRadioButton();
-        jPanel1 = new javax.swing.JPanel();
-        plasticTypeGUILabel = new javax.swing.JLabel();
-        innerInsulationGUILabel = new javax.swing.JLabel();
-        outerReinforcementGUILabel = new javax.swing.JLabel();
-        chemicalResistanceGUILabel = new javax.swing.JLabel();
-        lengthGUILabel = new javax.swing.JLabel();
-        outerDiameterGUILabel = new javax.swing.JLabel();
-        innerInsulationGUIRBY = new javax.swing.JRadioButton();
-        innerInsulationGUIRBN = new javax.swing.JRadioButton();
-        plasticTypeGUIRB1 = new javax.swing.JRadioButton();
-        plasticTypeGUIRB2 = new javax.swing.JRadioButton();
-        plasticTypeGUIRB3 = new javax.swing.JRadioButton();
-        plasticTypeGUIRB4 = new javax.swing.JRadioButton();
-        plasticTypeGUIRB5 = new javax.swing.JRadioButton();
-        outerReinforcementGUIRBY = new javax.swing.JRadioButton();
-        outerReinforcementGUIRBN = new javax.swing.JRadioButton();
-        plasticTypeGUIRBNI = new javax.swing.JRadioButton();
-        innerInsulationGUIRBNI = new javax.swing.JRadioButton();
-        outerReinforcementGUIRBNI = new javax.swing.JRadioButton();
-        chemicalResistanceGUIRBY = new javax.swing.JRadioButton();
-        chemicalResistanceGUIRBN = new javax.swing.JRadioButton();
-        chemicalResistanceGUIRBNI = new javax.swing.JRadioButton();
-        lengthGUITF1 = new javax.swing.JTextField();
-        outerDiameterGUITF1 = new javax.swing.JTextField();
-        lengthGUIMeters = new javax.swing.JRadioButton();
-        lengthGUIInches = new javax.swing.JRadioButton();
-        outerDiameterGUIMeters = new javax.swing.JRadioButton();
-        outerDiameterGUIInches = new javax.swing.JRadioButton();
-        colourGUILabel = new javax.swing.JLabel();
-        colourGUIRBnoColour = new javax.swing.JRadioButton();
-        colourGUIRB1Colour = new javax.swing.JRadioButton();
-        colourGUIRB2Colour = new javax.swing.JRadioButton();
-        jScrollPane1 = new javax.swing.JScrollPane();
-        textAreaGUI = new javax.swing.JTextArea();
-        orderbuttonGUI = new javax.swing.JButton();
+        jRadioButton26 = new javax.swing.JRadioButton();
+        jButton1 = new javax.swing.JButton();
+        jPanel3 = new javax.swing.JPanel();
+        jRadioButton3 = new javax.swing.JRadioButton();
+        jRadioButton4 = new javax.swing.JRadioButton();
+        jRadioButton5 = new javax.swing.JRadioButton();
+        jRadioButton7 = new javax.swing.JRadioButton();
+        jRadioButton8 = new javax.swing.JRadioButton();
+        jRadioButton12 = new javax.swing.JRadioButton();
         jPanel2 = new javax.swing.JPanel();
+        jRadioButton1 = new javax.swing.JRadioButton();
+        jRadioButton2 = new javax.swing.JRadioButton();
+        jRadioButton13 = new javax.swing.JRadioButton();
+        jPanel4 = new javax.swing.JPanel();
+        jRadioButton10 = new javax.swing.JRadioButton();
+        jRadioButton11 = new javax.swing.JRadioButton();
+        jRadioButton14 = new javax.swing.JRadioButton();
+        jPanel5 = new javax.swing.JPanel();
+        jRadioButton15 = new javax.swing.JRadioButton();
+        jRadioButton17 = new javax.swing.JRadioButton();
+        jRadioButton18 = new javax.swing.JRadioButton();
+        jPanel6 = new javax.swing.JPanel();
+        jTextField1 = new javax.swing.JTextField();
+        jRadioButton16 = new javax.swing.JRadioButton();
+        jRadioButton19 = new javax.swing.JRadioButton();
+        jPanel7 = new javax.swing.JPanel();
+        jTextField2 = new javax.swing.JTextField();
+        jRadioButton20 = new javax.swing.JRadioButton();
+        jRadioButton21 = new javax.swing.JRadioButton();
+        jPanel8 = new javax.swing.JPanel();
+        jRadioButton22 = new javax.swing.JRadioButton();
+        jRadioButton23 = new javax.swing.JRadioButton();
+        jRadioButton24 = new javax.swing.JRadioButton();
+        jPanel1 = new javax.swing.JPanel();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jRadioButton25 = new javax.swing.JRadioButton();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        jTextArea1 = new javax.swing.JTextArea();
+        jButton2 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
+        jButton4 = new javax.swing.JButton();
 
         jLabel6.setText("jLabel6");
 
@@ -87,349 +82,432 @@ public class PipesRusGUI extends javax.swing.JFrame {
 
         jRadioButton9.setText("jRadioButton9");
 
+        jRadioButton26.setText("jRadioButton26");
+
+        jButton1.setText("jButton1");
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Quote", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Agency FB", 1, 14))); // NOI18N
+        jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Plastic Type", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 1, 14))); // NOI18N
 
-        plasticTypeGUILabel.setText("Plastic Type:");
-
-        innerInsulationGUILabel.setText("Inner Insulation: ");
-
-        outerReinforcementGUILabel.setText("Outer Reinforcement:");
-
-        chemicalResistanceGUILabel.setText("Chemical Resistance:");
-
-        lengthGUILabel.setText("Length:");
-
-        outerDiameterGUILabel.setText("Outer Diameter:");
-
-        innerInsulationGUIRBY.setText("Yes");
-        innerInsulationGUIRBY.addActionListener(new java.awt.event.ActionListener() {
+        jRadioButton3.setText("1");
+        jRadioButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                innerInsulationGUIRBYActionPerformed(evt);
+                jRadioButton3ActionPerformed(evt);
             }
         });
 
-        innerInsulationGUIRBN.setText("No");
+        jRadioButton4.setText("2");
 
-        plasticTypeGUIRB1.setText("1");
-        plasticTypeGUIRB1.addActionListener(new java.awt.event.ActionListener() {
+        jRadioButton5.setText("3");
+        jRadioButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                plasticTypeGUIRB1ActionPerformed(evt);
+                jRadioButton5ActionPerformed(evt);
             }
         });
 
-        plasticTypeGUIRB2.setText("2");
+        jRadioButton7.setText("4");
 
-        plasticTypeGUIRB3.setText("3");
-        plasticTypeGUIRB3.addActionListener(new java.awt.event.ActionListener() {
+        jRadioButton8.setText("5");
+
+        jRadioButton12.setText("Not Important");
+        jRadioButton12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                plasticTypeGUIRB3ActionPerformed(evt);
+                jRadioButton12ActionPerformed(evt);
             }
         });
 
-        plasticTypeGUIRB4.setText("4");
+        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
+        jPanel3.setLayout(jPanel3Layout);
+        jPanel3Layout.setHorizontalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jRadioButton3)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jRadioButton4)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jRadioButton5)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jRadioButton7)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jRadioButton8)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jRadioButton12)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jPanel3Layout.setVerticalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jRadioButton3)
+                    .addComponent(jRadioButton4)
+                    .addComponent(jRadioButton5)
+                    .addComponent(jRadioButton7)
+                    .addComponent(jRadioButton8)
+                    .addComponent(jRadioButton12))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
 
-        plasticTypeGUIRB5.setText("5");
+        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Inner Insulation", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 1, 14))); // NOI18N
 
-        outerReinforcementGUIRBY.setText("Yes");
-        outerReinforcementGUIRBY.addActionListener(new java.awt.event.ActionListener() {
+        jRadioButton1.setText("Yes");
+        jRadioButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                outerReinforcementGUIRBYActionPerformed(evt);
+                jRadioButton1ActionPerformed(evt);
             }
         });
 
-        outerReinforcementGUIRBN.setText("No");
-        outerReinforcementGUIRBN.addActionListener(new java.awt.event.ActionListener() {
+        jRadioButton2.setText("No");
+
+        jRadioButton13.setText("Not Important");
+
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jRadioButton1)
+                .addGap(18, 18, 18)
+                .addComponent(jRadioButton2)
+                .addGap(18, 18, 18)
+                .addComponent(jRadioButton13)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jPanel2Layout.setVerticalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jRadioButton1)
+                    .addComponent(jRadioButton2)
+                    .addComponent(jRadioButton13))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Outer Reinforcement", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 1, 14))); // NOI18N
+
+        jRadioButton10.setText("Yes");
+        jRadioButton10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                outerReinforcementGUIRBNActionPerformed(evt);
+                jRadioButton10ActionPerformed(evt);
             }
         });
 
-        plasticTypeGUIRBNI.setText("Not Important");
-        plasticTypeGUIRBNI.addActionListener(new java.awt.event.ActionListener() {
+        jRadioButton11.setText("No");
+        jRadioButton11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                plasticTypeGUIRBNIActionPerformed(evt);
+                jRadioButton11ActionPerformed(evt);
             }
         });
 
-        innerInsulationGUIRBNI.setText("Not Important");
+        jRadioButton14.setText("Not Important");
 
-        outerReinforcementGUIRBNI.setText("Not Important");
+        javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
+        jPanel4.setLayout(jPanel4Layout);
+        jPanel4Layout.setHorizontalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel4Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jRadioButton10)
+                .addGap(18, 18, 18)
+                .addComponent(jRadioButton11)
+                .addGap(18, 18, 18)
+                .addComponent(jRadioButton14)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jPanel4Layout.setVerticalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel4Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jRadioButton10)
+                    .addComponent(jRadioButton11)
+                    .addComponent(jRadioButton14))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
 
-        chemicalResistanceGUIRBY.setText("Yes");
+        jPanel5.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Chemical Resistance", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 1, 14))); // NOI18N
 
-        chemicalResistanceGUIRBN.setText("No");
+        jRadioButton15.setText("Yes");
 
-        chemicalResistanceGUIRBNI.setText("Not Important");
+        jRadioButton17.setText("No");
 
-        lengthGUITF1.setText("jTextField1");
-        lengthGUITF1.addActionListener(new java.awt.event.ActionListener() {
+        jRadioButton18.setText("Not Important");
+
+        javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
+        jPanel5.setLayout(jPanel5Layout);
+        jPanel5Layout.setHorizontalGroup(
+            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel5Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jRadioButton15)
+                .addGap(18, 18, 18)
+                .addComponent(jRadioButton17)
+                .addGap(18, 18, 18)
+                .addComponent(jRadioButton18)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jPanel5Layout.setVerticalGroup(
+            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jRadioButton15)
+                    .addComponent(jRadioButton17)
+                    .addComponent(jRadioButton18))
+                .addContainerGap())
+        );
+
+        jPanel6.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Length", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 1, 14))); // NOI18N
+
+        jTextField1.setText("jTextField1");
+
+        jRadioButton16.setText("Meters");
+
+        jRadioButton19.setText("Inches");
+
+        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
+        jPanel6.setLayout(jPanel6Layout);
+        jPanel6Layout.setHorizontalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel6Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(jRadioButton16)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jRadioButton19)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jPanel6Layout.setVerticalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
+                .addContainerGap(11, Short.MAX_VALUE)
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jRadioButton16)
+                    .addComponent(jRadioButton19))
+                .addContainerGap())
+        );
+
+        jPanel7.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Outer Diameter", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 1, 14))); // NOI18N
+
+        jTextField2.setText("jTextField2");
+
+        jRadioButton20.setText("Meters");
+
+        jRadioButton21.setText("Inches");
+
+        javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
+        jPanel7.setLayout(jPanel7Layout);
+        jPanel7Layout.setHorizontalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel7Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jRadioButton20)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jRadioButton21)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jPanel7Layout.setVerticalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel7Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jRadioButton20)
+                    .addComponent(jRadioButton21))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        jPanel8.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Colour", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 1, 14))); // NOI18N
+
+        jRadioButton22.setText("No Colour");
+
+        jRadioButton23.setText("1 Colour");
+
+        jRadioButton24.setText("2 Colours");
+
+        javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
+        jPanel8.setLayout(jPanel8Layout);
+        jPanel8Layout.setHorizontalGroup(
+            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel8Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jRadioButton22)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jRadioButton23)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jRadioButton24)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jPanel8Layout.setVerticalGroup(
+            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel8Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jRadioButton22)
+                    .addComponent(jRadioButton23)
+                    .addComponent(jRadioButton24))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        jLabel1.setForeground(new java.awt.Color(153, 153, 153));
+        jLabel1.setText("There is no pipe that fall under this criteria. Please try changing your options.");
+
+        jLabel2.setText("Your pipe is available. Would you like to place an order?");
+
+        jRadioButton25.setText("Place order");
+        jRadioButton25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                lengthGUITF1ActionPerformed(evt);
+                jRadioButton25ActionPerformed(evt);
             }
         });
 
-        outerDiameterGUITF1.setText("jTextField2");
+        jTextArea1.setColumns(20);
+        jTextArea1.setRows(5);
+        jTextArea1.setText("Pipe #1\nPlastic Type ()\nInner Insualtion ()\nOuter Reinforcement ()\nChemical Resistance ()\nLength ()\nOuter Diameter ()\nColour ()");
+        jScrollPane1.setViewportView(jTextArea1);
 
-        lengthGUIMeters.setText("Meters");
-
-        lengthGUIInches.setText("Inches");
-
-        outerDiameterGUIMeters.setText("Meters");
-
-        outerDiameterGUIInches.setText("Inches");
-
-        colourGUILabel.setText("Colour:");
-
-        colourGUIRBnoColour.setText("No Colour");
-
-        colourGUIRB1Colour.setText("1 Colour");
-
-        colourGUIRB2Colour.setText("2 Colours");
-
-        textAreaGUI.setColumns(20);
-        textAreaGUI.setRows(5);
-        textAreaGUI.setText("(\"This pipe is not available, please try changing your components.\")\n\n(\"This pipe costs £\" + \".\")");
-        jScrollPane1.setViewportView(textAreaGUI);
-
-        orderbuttonGUI.setText("Place Order");
-        orderbuttonGUI.addActionListener(new java.awt.event.ActionListener() {
+        jButton2.setLabel("Checkout");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                orderbuttonGUIActionPerformed(evt);
+                jButton2ActionPerformed(evt);
             }
         });
+
+        jButton3.setLabel("Save Order");
+
+        jButton4.setForeground(new java.awt.Color(153, 153, 153));
+        jButton4.setLabel("Next Order");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
+                .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane1)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(37, 37, 37)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(colourGUILabel)
-                            .addComponent(outerDiameterGUILabel)
-                            .addComponent(lengthGUILabel)
-                            .addComponent(chemicalResistanceGUILabel)
-                            .addComponent(outerReinforcementGUILabel)
-                            .addComponent(innerInsulationGUILabel)
-                            .addComponent(plasticTypeGUILabel))
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addComponent(colourGUIRBnoColour)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(colourGUIRB1Colour)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(colourGUIRB2Colour))
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addComponent(lengthGUITF1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(lengthGUIMeters)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(lengthGUIInches))
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addComponent(outerDiameterGUITF1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(outerDiameterGUIMeters)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(outerDiameterGUIInches)))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 203, Short.MAX_VALUE)
-                                .addComponent(orderbuttonGUI, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addGap(4, 4, 4)
-                                        .addComponent(plasticTypeGUIRB1)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(plasticTypeGUIRB2)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(plasticTypeGUIRB3)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(plasticTypeGUIRB4)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(plasticTypeGUIRB5)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(plasticTypeGUIRBNI))
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                                .addComponent(innerInsulationGUIRBY)
-                                                .addGap(18, 18, 18)
-                                                .addComponent(innerInsulationGUIRBN)
-                                                .addGap(18, 18, 18)
-                                                .addComponent(innerInsulationGUIRBNI))
-                                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                    .addComponent(outerReinforcementGUIRBY)
-                                                    .addComponent(chemicalResistanceGUIRBY))
-                                                .addGap(18, 18, 18)
-                                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                                        .addComponent(outerReinforcementGUIRBN)
-                                                        .addGap(18, 18, 18)
-                                                        .addComponent(outerReinforcementGUIRBNI))
-                                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                                        .addComponent(chemicalResistanceGUIRBN)
-                                                        .addGap(18, 18, 18)
-                                                        .addComponent(chemicalResistanceGUIRBNI)))))))
-                                .addGap(0, 0, Short.MAX_VALUE))))
+                            .addComponent(jLabel1)
+                            .addComponent(jLabel2)
+                            .addComponent(jRadioButton25))
+                        .addGap(0, 12, Short.MAX_VALUE))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jScrollPane1)))
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(jButton2)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jButton3)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jButton4)))
                 .addContainerGap())
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
+                .addComponent(jLabel1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel2)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jRadioButton25)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 154, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(plasticTypeGUILabel)
-                    .addComponent(plasticTypeGUIRB1)
-                    .addComponent(plasticTypeGUIRB2)
-                    .addComponent(plasticTypeGUIRB3)
-                    .addComponent(plasticTypeGUIRB4)
-                    .addComponent(plasticTypeGUIRB5)
-                    .addComponent(plasticTypeGUIRBNI))
-                .addGap(18, 18, 18)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(innerInsulationGUILabel)
-                    .addComponent(innerInsulationGUIRBY)
-                    .addComponent(innerInsulationGUIRBN)
-                    .addComponent(innerInsulationGUIRBNI))
-                .addGap(18, 18, 18)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(outerReinforcementGUILabel)
-                    .addComponent(outerReinforcementGUIRBY)
-                    .addComponent(outerReinforcementGUIRBN)
-                    .addComponent(outerReinforcementGUIRBNI))
-                .addGap(18, 18, 18)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(chemicalResistanceGUILabel)
-                    .addComponent(chemicalResistanceGUIRBY)
-                    .addComponent(chemicalResistanceGUIRBN)
-                    .addComponent(chemicalResistanceGUIRBNI))
-                .addGap(18, 18, 18)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(lengthGUILabel)
-                            .addComponent(lengthGUITF1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(lengthGUIMeters)
-                            .addComponent(lengthGUIInches))
-                        .addGap(18, 18, 18)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(outerDiameterGUILabel)
-                            .addComponent(outerDiameterGUITF1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(outerDiameterGUIMeters)
-                            .addComponent(outerDiameterGUIInches)))
-                    .addComponent(orderbuttonGUI, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(18, 18, 18)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(colourGUILabel)
-                    .addComponent(colourGUIRBnoColour)
-                    .addComponent(colourGUIRB1Colour)
-                    .addComponent(colourGUIRB2Colour))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButton2)
+                    .addComponent(jButton3)
+                    .addComponent(jButton4))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-
-        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
-        jPanel2.setLayout(jPanel2Layout);
-        jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
-        );
-        jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 100, Short.MAX_VALUE)
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(0, 80, Short.MAX_VALUE))
+            .addComponent(jPanel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(22, 22, 22)
+                .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 93, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void innerInsulationGUIRBYActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_innerInsulationGUIRBYActionPerformed
+    private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton1ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_innerInsulationGUIRBYActionPerformed
+    }//GEN-LAST:event_jRadioButton1ActionPerformed
 
-    private void plasticTypeGUIRB1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_plasticTypeGUIRB1ActionPerformed
+    private void jRadioButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton3ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_plasticTypeGUIRB1ActionPerformed
+    }//GEN-LAST:event_jRadioButton3ActionPerformed
 
-    private void plasticTypeGUIRB3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_plasticTypeGUIRB3ActionPerformed
+    private void jRadioButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton5ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_plasticTypeGUIRB3ActionPerformed
+    }//GEN-LAST:event_jRadioButton5ActionPerformed
 
-    private void outerReinforcementGUIRBYActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_outerReinforcementGUIRBYActionPerformed
+    private void jRadioButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton10ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_outerReinforcementGUIRBYActionPerformed
+    }//GEN-LAST:event_jRadioButton10ActionPerformed
 
-    private void outerReinforcementGUIRBNActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_outerReinforcementGUIRBNActionPerformed
+    private void jRadioButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton11ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_outerReinforcementGUIRBNActionPerformed
+    }//GEN-LAST:event_jRadioButton11ActionPerformed
 
-    private void plasticTypeGUIRBNIActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_plasticTypeGUIRBNIActionPerformed
+    private void jRadioButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton12ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_plasticTypeGUIRBNIActionPerformed
+    }//GEN-LAST:event_jRadioButton12ActionPerformed
 
-    private void lengthGUITF1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_lengthGUITF1ActionPerformed
-        // text box for pipe length:
-        
-    }//GEN-LAST:event_lengthGUITF1ActionPerformed
-
-    private void orderbuttonGUIActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_orderbuttonGUIActionPerformed
+    private void jRadioButton25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton25ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_orderbuttonGUIActionPerformed
+    }//GEN-LAST:event_jRadioButton25ActionPerformed
 
-    /**
-     * Validation of pipe length & diameter
-     */
-    private double pipeLength;
-    private int PipeColour;
-    private static final double minLength = 0.5; // the minimum length of pipe
-    private static final double maxLength = 6.0; // the maximum length of pipe
-    private double outerRadius;
-    private int plasticGrade;
-    private int quantityOfPipe;
-    private static int minQty = 1; // the minimum quantities of pipe that can be ordered
-    private static int maxQty = 100; // the maximum quantities of pipe that can be ordered
-    private boolean isItInsulated;
-    private boolean isItReinforced;
-    private boolean checmicalResistant;
-    private PipeColour pipeColour; //an object.
-    private final PipeType pipeGrade;
-    /**private static Order order;
-    protected static double[] basicCost = {INSERT VALUES OF PIPES HERE}; // the basic cost of 1 sqm of pipe
-    protected static double[] colourCost = {12,15}; // additional costs for colours
-    protected static int sealableTopsCost = 5; // additional costs for insulation
-    protected static int reinforcedBottomCost = 10; // additional costs for outer reinforcement
-    */
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton2ActionPerformed
     
+    ButtonGroup plasticType = new ButtonGroup();
+    plasticType.add(jRadioButton3);
+    plasticType.add(jRadioButton4);
+    plasticType.add(jRadioButton5);
+    plasticType.add(jRadioButton7);
+    plasticType.add(jRadioButton8);
+    plasticType.add(jRadioButton12);
+    
+    ButtonGroup innerInsulation = new ButtonGroup();
+    innerInsulation.add(jRadioButton1);
+    innerInsulation.add(jRadioButton2);
+    innerInsulation.add(jRadioButton13);
     
     
     /**
@@ -468,48 +546,79 @@ public class PipesRusGUI extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel chemicalResistanceGUILabel;
-    private javax.swing.JRadioButton chemicalResistanceGUIRBN;
-    private javax.swing.JRadioButton chemicalResistanceGUIRBNI;
-    private javax.swing.JRadioButton chemicalResistanceGUIRBY;
-    private javax.swing.JLabel colourGUILabel;
-    private javax.swing.JRadioButton colourGUIRB1Colour;
-    private javax.swing.JRadioButton colourGUIRB2Colour;
-    private javax.swing.JRadioButton colourGUIRBnoColour;
-    private javax.swing.JLabel innerInsulationGUILabel;
-    private javax.swing.JRadioButton innerInsulationGUIRBN;
-    private javax.swing.JRadioButton innerInsulationGUIRBNI;
-    private javax.swing.JRadioButton innerInsulationGUIRBY;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel jPanel4;
+    private javax.swing.JPanel jPanel5;
+    private javax.swing.JPanel jPanel6;
+    private javax.swing.JPanel jPanel7;
+    private javax.swing.JPanel jPanel8;
+    private javax.swing.JRadioButton jRadioButton1;
+    private javax.swing.JRadioButton jRadioButton10;
+    private javax.swing.JRadioButton jRadioButton11;
+    private javax.swing.JRadioButton jRadioButton12;
+    private javax.swing.JRadioButton jRadioButton13;
+    private javax.swing.JRadioButton jRadioButton14;
+    private javax.swing.JRadioButton jRadioButton15;
+    private javax.swing.JRadioButton jRadioButton16;
+    private javax.swing.JRadioButton jRadioButton17;
+    private javax.swing.JRadioButton jRadioButton18;
+    private javax.swing.JRadioButton jRadioButton19;
+    private javax.swing.JRadioButton jRadioButton2;
+    private javax.swing.JRadioButton jRadioButton20;
+    private javax.swing.JRadioButton jRadioButton21;
+    private javax.swing.JRadioButton jRadioButton22;
+    private javax.swing.JRadioButton jRadioButton23;
+    private javax.swing.JRadioButton jRadioButton24;
+    private javax.swing.JRadioButton jRadioButton25;
+    private javax.swing.JRadioButton jRadioButton26;
+    private javax.swing.JRadioButton jRadioButton3;
+    private javax.swing.JRadioButton jRadioButton4;
+    private javax.swing.JRadioButton jRadioButton5;
     private javax.swing.JRadioButton jRadioButton6;
+    private javax.swing.JRadioButton jRadioButton7;
+    private javax.swing.JRadioButton jRadioButton8;
     private javax.swing.JRadioButton jRadioButton9;
     private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JTextArea jTextArea1;
+    private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField jTextField2;
     private javax.swing.JTextField jTextField7;
-    private javax.swing.JRadioButton lengthGUIInches;
-    private javax.swing.JLabel lengthGUILabel;
-    private javax.swing.JRadioButton lengthGUIMeters;
-    private javax.swing.JTextField lengthGUITF1;
-    private javax.swing.JButton orderbuttonGUI;
-    private javax.swing.JRadioButton outerDiameterGUIInches;
-    private javax.swing.JLabel outerDiameterGUILabel;
-    private javax.swing.JRadioButton outerDiameterGUIMeters;
-    private javax.swing.JTextField outerDiameterGUITF1;
-    private javax.swing.JLabel outerReinforcementGUILabel;
-    private javax.swing.JRadioButton outerReinforcementGUIRBN;
-    private javax.swing.JRadioButton outerReinforcementGUIRBNI;
-    private javax.swing.JRadioButton outerReinforcementGUIRBY;
-    private javax.swing.JLabel plasticTypeGUILabel;
-    private javax.swing.JRadioButton plasticTypeGUIRB1;
-    private javax.swing.JRadioButton plasticTypeGUIRB2;
-    private javax.swing.JRadioButton plasticTypeGUIRB3;
-    private javax.swing.JRadioButton plasticTypeGUIRB4;
-    private javax.swing.JRadioButton plasticTypeGUIRB5;
-    private javax.swing.JRadioButton plasticTypeGUIRBNI;
-    private javax.swing.JTextArea textAreaGUI;
     // End of variables declaration//GEN-END:variables
 }
+
+/**
+     * Validation of pipe length & diameter
+     */
+    private double pipeLength;
+    private int PipeColour;
+    private static final double minLength = 0.5; // the minimum length of pipe
+    private static final double maxLength = 6.0; // the maximum length of pipe
+    private double outerRadius;
+    private int plasticGrade;
+    private int quantityOfPipe;
+    private static int minQty = 1; // the minimum quantities of pipe that can be ordered
+    private static int maxQty = 100; // the maximum quantities of pipe that can be ordered
+    private boolean isItInsulated;
+    private boolean isItReinforced;
+    private boolean checmicalResistant;
+    private PipeColour pipeColour; //an object.
+    private final PipeType pipeGrade;
+    private static Order order;
+    protected static double[] basicCost = {INSERT VALUES OF PIPES HERE}; // the basic cost of 1 sqm of pipe
+    protected static double[] colourCost = {12,15}; // additional costs for colours
+    protected static int sealableTopsCost = 5; // additional costs for insulation
+    protected static int reinforcedBottomCost = 10; // additional costs for outer reinforcement
+    */
+
     private void systemInit() {
         
         //initialise the model of the list from the GUI which will display the ordered boxes
