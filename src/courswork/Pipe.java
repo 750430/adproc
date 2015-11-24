@@ -1,5 +1,7 @@
 package courswork;
 
+import java.awt.Color;
+
 /**
  * ADPROC Coursework 2015.
  *
@@ -11,21 +13,31 @@ package courswork;
 /**
  * as the abstract class PipeType is now available for use, this class is for
  * specifying what sort of pipes are available to the ordering system
+ * 
+ * BUILD MULTIPLE PIPEx AND EXTEND PIPETYPE.class
+ * 
+ * 
  */
 
-public class Pipe {
+public abstract class Pipe {
 
-    protected PipeType pipeGrade; //pulls in the pipeGrade int array from PipeType class
-    protected int pipeLength; //new method, int for pipeLength
+    //private PipeType pipeGrade; //pulls in the pipeGrade int array from PipeType class
+    private final double pipeLength; //new variable, int for pipeLength
+    private double outerRadius;
+    private int plasticGrade;
+    private boolean isItInsulated;
+    private boolean isItReinforced;
+    private boolean checmicalResistant;
+    private Color[] pipeColour; //an array of Colours from the Color object.
+    private final PipeType pipeGrade;
+    
 
-    public Pipe() {
-    }
     /**
      * method to initialise these new methods
      * @param pipeGrade
      * @param pipeLength 
      */
-    public Pipe(PipeType pipeGrade, int pipeLength) {
+    public Pipe(PipeType pipeGrade, double pipeLength) {
         this.pipeGrade = pipeGrade;
         this.pipeLength = pipeLength;
     }
