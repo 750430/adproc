@@ -105,17 +105,17 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jRadioButton3" min="-2" max="-2" attributes="0"/>
+                  <Component id="plasticTypeGUIRB1" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jRadioButton4" min="-2" max="-2" attributes="0"/>
+                  <Component id="plasticTypeGUIRB2" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jRadioButton5" min="-2" max="-2" attributes="0"/>
+                  <Component id="plasticTypeGUIRB3" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jRadioButton7" min="-2" max="-2" attributes="0"/>
+                  <Component id="plasticTypeGUIRB4" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jRadioButton8" min="-2" max="-2" attributes="0"/>
+                  <Component id="plasticTypeGUIRB5" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jRadioButton12" min="-2" max="-2" attributes="0"/>
+                  <Component id="plasticTypeGUIRBNI" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="32767" attributes="0"/>
               </Group>
           </Group>
@@ -125,12 +125,12 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jRadioButton3" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jRadioButton4" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jRadioButton5" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jRadioButton7" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jRadioButton8" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jRadioButton12" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="plasticTypeGUIRB1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="plasticTypeGUIRB2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="plasticTypeGUIRB3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="plasticTypeGUIRB4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="plasticTypeGUIRB5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="plasticTypeGUIRBNI" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="32767" attributes="0"/>
               </Group>
@@ -138,43 +138,43 @@
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Component class="javax.swing.JRadioButton" name="jRadioButton3">
+        <Component class="javax.swing.JRadioButton" name="plasticTypeGUIRB1">
           <Properties>
             <Property name="text" type="java.lang.String" value="1"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRadioButton3ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="plasticTypeGUIRB1ActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JRadioButton" name="jRadioButton4">
+        <Component class="javax.swing.JRadioButton" name="plasticTypeGUIRB2">
           <Properties>
             <Property name="text" type="java.lang.String" value="2"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JRadioButton" name="jRadioButton5">
+        <Component class="javax.swing.JRadioButton" name="plasticTypeGUIRB3">
           <Properties>
             <Property name="text" type="java.lang.String" value="3"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRadioButton5ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="plasticTypeGUIRB3ActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JRadioButton" name="jRadioButton7">
+        <Component class="javax.swing.JRadioButton" name="plasticTypeGUIRB4">
           <Properties>
             <Property name="text" type="java.lang.String" value="4"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JRadioButton" name="jRadioButton8">
+        <Component class="javax.swing.JRadioButton" name="plasticTypeGUIRB5">
           <Properties>
             <Property name="text" type="java.lang.String" value="5"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JRadioButton" name="jRadioButton12">
+        <Component class="javax.swing.JRadioButton" name="plasticTypeGUIRBNI">
           <Properties>
             <Property name="text" type="java.lang.String" value="Not Important"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRadioButton12ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="plasticTypeGUIRBNIActionPerformed"/>
           </Events>
         </Component>
       </SubComponents>
@@ -195,11 +195,11 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jRadioButton1" min="-2" max="-2" attributes="0"/>
+                  <Component id="innerInsulationGUIRBY" min="-2" max="-2" attributes="0"/>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Component id="jRadioButton2" min="-2" max="-2" attributes="0"/>
+                  <Component id="innerInsulationGUIRBN" min="-2" max="-2" attributes="0"/>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Component id="jRadioButton13" min="-2" max="-2" attributes="0"/>
+                  <Component id="innerInsulationGUIRBNI" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="32767" attributes="0"/>
               </Group>
           </Group>
@@ -209,9 +209,9 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jRadioButton1" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jRadioButton2" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jRadioButton13" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="innerInsulationGUIRBY" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="innerInsulationGUIRBN" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="innerInsulationGUIRBNI" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="32767" attributes="0"/>
               </Group>
@@ -219,20 +219,20 @@
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Component class="javax.swing.JRadioButton" name="jRadioButton1">
+        <Component class="javax.swing.JRadioButton" name="innerInsulationGUIRBY">
           <Properties>
             <Property name="text" type="java.lang.String" value="Yes"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRadioButton1ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="innerInsulationGUIRBYActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JRadioButton" name="jRadioButton2">
+        <Component class="javax.swing.JRadioButton" name="innerInsulationGUIRBN">
           <Properties>
             <Property name="text" type="java.lang.String" value="No"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JRadioButton" name="jRadioButton13">
+        <Component class="javax.swing.JRadioButton" name="innerInsulationGUIRBNI">
           <Properties>
             <Property name="text" type="java.lang.String" value="Not Important"/>
           </Properties>
@@ -255,11 +255,11 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jRadioButton10" min="-2" max="-2" attributes="0"/>
+                  <Component id="outerReinforcementGUIRBY" min="-2" max="-2" attributes="0"/>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Component id="jRadioButton11" min="-2" max="-2" attributes="0"/>
+                  <Component id="outerReinforcementGUIRBN" min="-2" max="-2" attributes="0"/>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Component id="jRadioButton14" min="-2" max="-2" attributes="0"/>
+                  <Component id="outerReinforcementGUIRBNI" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="32767" attributes="0"/>
               </Group>
           </Group>
@@ -269,9 +269,9 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jRadioButton10" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jRadioButton11" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jRadioButton14" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="outerReinforcementGUIRBY" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="outerReinforcementGUIRBN" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="outerReinforcementGUIRBNI" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="32767" attributes="0"/>
               </Group>
@@ -279,23 +279,23 @@
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Component class="javax.swing.JRadioButton" name="jRadioButton10">
+        <Component class="javax.swing.JRadioButton" name="outerReinforcementGUIRBY">
           <Properties>
             <Property name="text" type="java.lang.String" value="Yes"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRadioButton10ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="outerReinforcementGUIRBYActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JRadioButton" name="jRadioButton11">
+        <Component class="javax.swing.JRadioButton" name="outerReinforcementGUIRBN">
           <Properties>
             <Property name="text" type="java.lang.String" value="No"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRadioButton11ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="outerReinforcementGUIRBNActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JRadioButton" name="jRadioButton14">
+        <Component class="javax.swing.JRadioButton" name="outerReinforcementGUIRBNI">
           <Properties>
             <Property name="text" type="java.lang.String" value="Not Important"/>
           </Properties>
@@ -318,11 +318,11 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jRadioButton15" min="-2" max="-2" attributes="0"/>
+                  <Component id="chemicalResistanceGUIRBY" min="-2" max="-2" attributes="0"/>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Component id="jRadioButton17" min="-2" max="-2" attributes="0"/>
+                  <Component id="chemicalResistanceGUIRBN" min="-2" max="-2" attributes="0"/>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Component id="jRadioButton18" min="-2" max="-2" attributes="0"/>
+                  <Component id="chemicalResistanceGUIRBNI" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="32767" attributes="0"/>
               </Group>
           </Group>
@@ -332,9 +332,9 @@
               <Group type="102" alignment="1" attributes="0">
                   <EmptySpace max="32767" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jRadioButton15" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jRadioButton17" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jRadioButton18" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="chemicalResistanceGUIRBY" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="chemicalResistanceGUIRBN" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="chemicalResistanceGUIRBNI" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
@@ -342,17 +342,17 @@
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Component class="javax.swing.JRadioButton" name="jRadioButton15">
+        <Component class="javax.swing.JRadioButton" name="chemicalResistanceGUIRBY">
           <Properties>
             <Property name="text" type="java.lang.String" value="Yes"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JRadioButton" name="jRadioButton17">
+        <Component class="javax.swing.JRadioButton" name="chemicalResistanceGUIRBN">
           <Properties>
             <Property name="text" type="java.lang.String" value="No"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JRadioButton" name="jRadioButton18">
+        <Component class="javax.swing.JRadioButton" name="chemicalResistanceGUIRBNI">
           <Properties>
             <Property name="text" type="java.lang.String" value="Not Important"/>
           </Properties>
@@ -375,11 +375,11 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jTextField1" min="-2" max="-2" attributes="0"/>
+                  <Component id="lengthGUITF1" min="-2" max="-2" attributes="0"/>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Component id="jRadioButton16" min="-2" max="-2" attributes="0"/>
+                  <Component id="lengthGUIRBM" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jRadioButton19" min="-2" max="-2" attributes="0"/>
+                  <Component id="lengthGUIRBI" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="32767" attributes="0"/>
               </Group>
           </Group>
@@ -389,9 +389,9 @@
               <Group type="102" alignment="1" attributes="0">
                   <EmptySpace pref="11" max="32767" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jRadioButton16" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jRadioButton19" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lengthGUITF1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lengthGUIRBM" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lengthGUIRBI" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
@@ -399,17 +399,17 @@
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Component class="javax.swing.JTextField" name="jTextField1">
+        <Component class="javax.swing.JTextField" name="lengthGUITF1">
           <Properties>
             <Property name="text" type="java.lang.String" value="jTextField1"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JRadioButton" name="jRadioButton16">
+        <Component class="javax.swing.JRadioButton" name="lengthGUIRBM">
           <Properties>
             <Property name="text" type="java.lang.String" value="Meters"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JRadioButton" name="jRadioButton19">
+        <Component class="javax.swing.JRadioButton" name="lengthGUIRBI">
           <Properties>
             <Property name="text" type="java.lang.String" value="Inches"/>
           </Properties>
@@ -432,11 +432,11 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jTextField2" min="-2" max="-2" attributes="0"/>
+                  <Component id="outerDiameterGUITF1" min="-2" max="-2" attributes="0"/>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                  <Component id="jRadioButton20" min="-2" max="-2" attributes="0"/>
+                  <Component id="outerDiameterGUIRBM" min="-2" max="-2" attributes="0"/>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                  <Component id="jRadioButton21" min="-2" max="-2" attributes="0"/>
+                  <Component id="outerDiameterGUIRBI" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="32767" attributes="0"/>
               </Group>
           </Group>
@@ -446,9 +446,9 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jTextField2" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jRadioButton20" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jRadioButton21" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="outerDiameterGUITF1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="outerDiameterGUIRBM" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="outerDiameterGUIRBI" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="32767" attributes="0"/>
               </Group>
@@ -456,17 +456,17 @@
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Component class="javax.swing.JTextField" name="jTextField2">
+        <Component class="javax.swing.JTextField" name="outerDiameterGUITF1">
           <Properties>
             <Property name="text" type="java.lang.String" value="jTextField2"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JRadioButton" name="jRadioButton20">
+        <Component class="javax.swing.JRadioButton" name="outerDiameterGUIRBM">
           <Properties>
             <Property name="text" type="java.lang.String" value="Meters"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JRadioButton" name="jRadioButton21">
+        <Component class="javax.swing.JRadioButton" name="outerDiameterGUIRBI">
           <Properties>
             <Property name="text" type="java.lang.String" value="Inches"/>
           </Properties>
@@ -489,11 +489,11 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jRadioButton22" min="-2" max="-2" attributes="0"/>
+                  <Component id="colourGUIRBNoColour" min="-2" max="-2" attributes="0"/>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                  <Component id="jRadioButton23" min="-2" max="-2" attributes="0"/>
+                  <Component id="colourGUIRB1Colour" min="-2" max="-2" attributes="0"/>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                  <Component id="jRadioButton24" min="-2" max="-2" attributes="0"/>
+                  <Component id="colourGUIRB2Colour" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="32767" attributes="0"/>
               </Group>
           </Group>
@@ -503,9 +503,9 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jRadioButton22" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jRadioButton23" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jRadioButton24" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="colourGUIRBNoColour" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="colourGUIRB1Colour" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="colourGUIRB2Colour" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="32767" attributes="0"/>
               </Group>
@@ -513,17 +513,17 @@
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Component class="javax.swing.JRadioButton" name="jRadioButton22">
+        <Component class="javax.swing.JRadioButton" name="colourGUIRBNoColour">
           <Properties>
             <Property name="text" type="java.lang.String" value="No Colour"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JRadioButton" name="jRadioButton23">
+        <Component class="javax.swing.JRadioButton" name="colourGUIRB1Colour">
           <Properties>
             <Property name="text" type="java.lang.String" value="1 Colour"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JRadioButton" name="jRadioButton24">
+        <Component class="javax.swing.JRadioButton" name="colourGUIRB2Colour">
           <Properties>
             <Property name="text" type="java.lang.String" value="2 Colours"/>
           </Properties>
@@ -543,17 +543,17 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
                               <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="jRadioButton25" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="placeOrderGUIRB" alignment="0" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace min="0" pref="12" max="32767" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                          <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                          <Component id="checkOutGUIButton" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                          <Component id="saveOrderGUIButton" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jButton4" min="-2" max="-2" attributes="0"/>
+                          <Component id="nextOrderGUIButton" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
@@ -567,14 +567,14 @@
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jRadioButton25" min="-2" max="-2" attributes="0"/>
+                  <Component id="placeOrderGUIRB" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="jScrollPane1" min="-2" pref="154" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jButton3" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jButton4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="checkOutGUIButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="saveOrderGUIButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="nextOrderGUIButton" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="32767" attributes="0"/>
               </Group>
@@ -595,12 +595,12 @@
             <Property name="text" type="java.lang.String" value="Your pipe is available. Would you like to place an order?"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JRadioButton" name="jRadioButton25">
+        <Component class="javax.swing.JRadioButton" name="placeOrderGUIRB">
           <Properties>
             <Property name="text" type="java.lang.String" value="Place order"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRadioButton25ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="placeOrderGUIRBActionPerformed"/>
           </Events>
         </Component>
         <Container class="javax.swing.JScrollPane" name="jScrollPane1">
@@ -619,20 +619,20 @@
             </Component>
           </SubComponents>
         </Container>
-        <Component class="javax.swing.JButton" name="jButton2">
+        <Component class="javax.swing.JButton" name="checkOutGUIButton">
           <Properties>
             <Property name="label" type="java.lang.String" value="Checkout"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkOutGUIButtonActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton3">
+        <Component class="javax.swing.JButton" name="saveOrderGUIButton">
           <Properties>
             <Property name="label" type="java.lang.String" value="Save Order"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton4">
+        <Component class="javax.swing.JButton" name="nextOrderGUIButton">
           <Properties>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="99" green="99" red="99" type="rgb"/>

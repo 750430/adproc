@@ -3,7 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package my.pipesrus;
+package courswork;
+
+import javax.swing.ButtonGroup;
 
 /**
  *
@@ -34,45 +36,45 @@ public class PipesRusGUI extends javax.swing.JFrame {
         jRadioButton26 = new javax.swing.JRadioButton();
         jButton1 = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
-        jRadioButton3 = new javax.swing.JRadioButton();
-        jRadioButton4 = new javax.swing.JRadioButton();
-        jRadioButton5 = new javax.swing.JRadioButton();
-        jRadioButton7 = new javax.swing.JRadioButton();
-        jRadioButton8 = new javax.swing.JRadioButton();
-        jRadioButton12 = new javax.swing.JRadioButton();
+        plasticTypeGUIRB1 = new javax.swing.JRadioButton();
+        plasticTypeGUIRB2 = new javax.swing.JRadioButton();
+        plasticTypeGUIRB3 = new javax.swing.JRadioButton();
+        plasticTypeGUIRB4 = new javax.swing.JRadioButton();
+        plasticTypeGUIRB5 = new javax.swing.JRadioButton();
+        plasticTypeGUIRBNI = new javax.swing.JRadioButton();
         jPanel2 = new javax.swing.JPanel();
-        jRadioButton1 = new javax.swing.JRadioButton();
-        jRadioButton2 = new javax.swing.JRadioButton();
-        jRadioButton13 = new javax.swing.JRadioButton();
+        innerInsulationGUIRBY = new javax.swing.JRadioButton();
+        innerInsulationGUIRBN = new javax.swing.JRadioButton();
+        innerInsulationGUIRBNI = new javax.swing.JRadioButton();
         jPanel4 = new javax.swing.JPanel();
-        jRadioButton10 = new javax.swing.JRadioButton();
-        jRadioButton11 = new javax.swing.JRadioButton();
-        jRadioButton14 = new javax.swing.JRadioButton();
+        outerReinforcementGUIRBY = new javax.swing.JRadioButton();
+        outerReinforcementGUIRBN = new javax.swing.JRadioButton();
+        outerReinforcementGUIRBNI = new javax.swing.JRadioButton();
         jPanel5 = new javax.swing.JPanel();
-        jRadioButton15 = new javax.swing.JRadioButton();
-        jRadioButton17 = new javax.swing.JRadioButton();
-        jRadioButton18 = new javax.swing.JRadioButton();
+        chemicalResistanceGUIRBY = new javax.swing.JRadioButton();
+        chemicalResistanceGUIRBN = new javax.swing.JRadioButton();
+        chemicalResistanceGUIRBNI = new javax.swing.JRadioButton();
         jPanel6 = new javax.swing.JPanel();
-        jTextField1 = new javax.swing.JTextField();
-        jRadioButton16 = new javax.swing.JRadioButton();
-        jRadioButton19 = new javax.swing.JRadioButton();
+        lengthGUITF1 = new javax.swing.JTextField();
+        lengthGUIRBM = new javax.swing.JRadioButton();
+        lengthGUIRBI = new javax.swing.JRadioButton();
         jPanel7 = new javax.swing.JPanel();
-        jTextField2 = new javax.swing.JTextField();
-        jRadioButton20 = new javax.swing.JRadioButton();
-        jRadioButton21 = new javax.swing.JRadioButton();
+        outerDiameterGUITF1 = new javax.swing.JTextField();
+        outerDiameterGUIRBM = new javax.swing.JRadioButton();
+        outerDiameterGUIRBI = new javax.swing.JRadioButton();
         jPanel8 = new javax.swing.JPanel();
-        jRadioButton22 = new javax.swing.JRadioButton();
-        jRadioButton23 = new javax.swing.JRadioButton();
-        jRadioButton24 = new javax.swing.JRadioButton();
+        colourGUIRBNoColour = new javax.swing.JRadioButton();
+        colourGUIRB1Colour = new javax.swing.JRadioButton();
+        colourGUIRB2Colour = new javax.swing.JRadioButton();
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
-        jRadioButton25 = new javax.swing.JRadioButton();
+        placeOrderGUIRB = new javax.swing.JRadioButton();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTextArea1 = new javax.swing.JTextArea();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
+        checkOutGUIButton = new javax.swing.JButton();
+        saveOrderGUIButton = new javax.swing.JButton();
+        nextOrderGUIButton = new javax.swing.JButton();
 
         jLabel6.setText("jLabel6");
 
@@ -90,30 +92,30 @@ public class PipesRusGUI extends javax.swing.JFrame {
 
         jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Plastic Type", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 1, 14))); // NOI18N
 
-        jRadioButton3.setText("1");
-        jRadioButton3.addActionListener(new java.awt.event.ActionListener() {
+        plasticTypeGUIRB1.setText("1");
+        plasticTypeGUIRB1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton3ActionPerformed(evt);
+                plasticTypeGUIRB1ActionPerformed(evt);
             }
         });
 
-        jRadioButton4.setText("2");
+        plasticTypeGUIRB2.setText("2");
 
-        jRadioButton5.setText("3");
-        jRadioButton5.addActionListener(new java.awt.event.ActionListener() {
+        plasticTypeGUIRB3.setText("3");
+        plasticTypeGUIRB3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton5ActionPerformed(evt);
+                plasticTypeGUIRB3ActionPerformed(evt);
             }
         });
 
-        jRadioButton7.setText("4");
+        plasticTypeGUIRB4.setText("4");
 
-        jRadioButton8.setText("5");
+        plasticTypeGUIRB5.setText("5");
 
-        jRadioButton12.setText("Not Important");
-        jRadioButton12.addActionListener(new java.awt.event.ActionListener() {
+        plasticTypeGUIRBNI.setText("Not Important");
+        plasticTypeGUIRBNI.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton12ActionPerformed(evt);
+                plasticTypeGUIRBNIActionPerformed(evt);
             }
         });
 
@@ -123,17 +125,17 @@ public class PipesRusGUI extends javax.swing.JFrame {
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jRadioButton3)
+                .addComponent(plasticTypeGUIRB1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton4)
+                .addComponent(plasticTypeGUIRB2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton5)
+                .addComponent(plasticTypeGUIRB3)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton7)
+                .addComponent(plasticTypeGUIRB4)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton8)
+                .addComponent(plasticTypeGUIRB5)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton12)
+                .addComponent(plasticTypeGUIRBNI)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel3Layout.setVerticalGroup(
@@ -141,27 +143,27 @@ public class PipesRusGUI extends javax.swing.JFrame {
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jRadioButton3)
-                    .addComponent(jRadioButton4)
-                    .addComponent(jRadioButton5)
-                    .addComponent(jRadioButton7)
-                    .addComponent(jRadioButton8)
-                    .addComponent(jRadioButton12))
+                    .addComponent(plasticTypeGUIRB1)
+                    .addComponent(plasticTypeGUIRB2)
+                    .addComponent(plasticTypeGUIRB3)
+                    .addComponent(plasticTypeGUIRB4)
+                    .addComponent(plasticTypeGUIRB5)
+                    .addComponent(plasticTypeGUIRBNI))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Inner Insulation", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 1, 14))); // NOI18N
 
-        jRadioButton1.setText("Yes");
-        jRadioButton1.addActionListener(new java.awt.event.ActionListener() {
+        innerInsulationGUIRBY.setText("Yes");
+        innerInsulationGUIRBY.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton1ActionPerformed(evt);
+                innerInsulationGUIRBYActionPerformed(evt);
             }
         });
 
-        jRadioButton2.setText("No");
+        innerInsulationGUIRBN.setText("No");
 
-        jRadioButton13.setText("Not Important");
+        innerInsulationGUIRBNI.setText("Not Important");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -169,11 +171,11 @@ public class PipesRusGUI extends javax.swing.JFrame {
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jRadioButton1)
+                .addComponent(innerInsulationGUIRBY)
                 .addGap(18, 18, 18)
-                .addComponent(jRadioButton2)
+                .addComponent(innerInsulationGUIRBN)
                 .addGap(18, 18, 18)
-                .addComponent(jRadioButton13)
+                .addComponent(innerInsulationGUIRBNI)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
@@ -181,29 +183,29 @@ public class PipesRusGUI extends javax.swing.JFrame {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jRadioButton1)
-                    .addComponent(jRadioButton2)
-                    .addComponent(jRadioButton13))
+                    .addComponent(innerInsulationGUIRBY)
+                    .addComponent(innerInsulationGUIRBN)
+                    .addComponent(innerInsulationGUIRBNI))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Outer Reinforcement", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 1, 14))); // NOI18N
 
-        jRadioButton10.setText("Yes");
-        jRadioButton10.addActionListener(new java.awt.event.ActionListener() {
+        outerReinforcementGUIRBY.setText("Yes");
+        outerReinforcementGUIRBY.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton10ActionPerformed(evt);
+                outerReinforcementGUIRBYActionPerformed(evt);
             }
         });
 
-        jRadioButton11.setText("No");
-        jRadioButton11.addActionListener(new java.awt.event.ActionListener() {
+        outerReinforcementGUIRBN.setText("No");
+        outerReinforcementGUIRBN.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton11ActionPerformed(evt);
+                outerReinforcementGUIRBNActionPerformed(evt);
             }
         });
 
-        jRadioButton14.setText("Not Important");
+        outerReinforcementGUIRBNI.setText("Not Important");
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
@@ -211,11 +213,11 @@ public class PipesRusGUI extends javax.swing.JFrame {
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel4Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jRadioButton10)
+                .addComponent(outerReinforcementGUIRBY)
                 .addGap(18, 18, 18)
-                .addComponent(jRadioButton11)
+                .addComponent(outerReinforcementGUIRBN)
                 .addGap(18, 18, 18)
-                .addComponent(jRadioButton14)
+                .addComponent(outerReinforcementGUIRBNI)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel4Layout.setVerticalGroup(
@@ -223,19 +225,19 @@ public class PipesRusGUI extends javax.swing.JFrame {
             .addGroup(jPanel4Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jRadioButton10)
-                    .addComponent(jRadioButton11)
-                    .addComponent(jRadioButton14))
+                    .addComponent(outerReinforcementGUIRBY)
+                    .addComponent(outerReinforcementGUIRBN)
+                    .addComponent(outerReinforcementGUIRBNI))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jPanel5.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Chemical Resistance", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 1, 14))); // NOI18N
 
-        jRadioButton15.setText("Yes");
+        chemicalResistanceGUIRBY.setText("Yes");
 
-        jRadioButton17.setText("No");
+        chemicalResistanceGUIRBN.setText("No");
 
-        jRadioButton18.setText("Not Important");
+        chemicalResistanceGUIRBNI.setText("Not Important");
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
@@ -243,11 +245,11 @@ public class PipesRusGUI extends javax.swing.JFrame {
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel5Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jRadioButton15)
+                .addComponent(chemicalResistanceGUIRBY)
                 .addGap(18, 18, 18)
-                .addComponent(jRadioButton17)
+                .addComponent(chemicalResistanceGUIRBN)
                 .addGap(18, 18, 18)
-                .addComponent(jRadioButton18)
+                .addComponent(chemicalResistanceGUIRBNI)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel5Layout.setVerticalGroup(
@@ -255,19 +257,19 @@ public class PipesRusGUI extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jRadioButton15)
-                    .addComponent(jRadioButton17)
-                    .addComponent(jRadioButton18))
+                    .addComponent(chemicalResistanceGUIRBY)
+                    .addComponent(chemicalResistanceGUIRBN)
+                    .addComponent(chemicalResistanceGUIRBNI))
                 .addContainerGap())
         );
 
         jPanel6.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Length", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 1, 14))); // NOI18N
 
-        jTextField1.setText("jTextField1");
+        lengthGUITF1.setText("jTextField1");
 
-        jRadioButton16.setText("Meters");
+        lengthGUIRBM.setText("Meters");
 
-        jRadioButton19.setText("Inches");
+        lengthGUIRBI.setText("Inches");
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
@@ -275,11 +277,11 @@ public class PipesRusGUI extends javax.swing.JFrame {
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel6Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(lengthGUITF1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jRadioButton16)
+                .addComponent(lengthGUIRBM)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton19)
+                .addComponent(lengthGUIRBI)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel6Layout.setVerticalGroup(
@@ -287,19 +289,19 @@ public class PipesRusGUI extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
                 .addContainerGap(11, Short.MAX_VALUE)
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jRadioButton16)
-                    .addComponent(jRadioButton19))
+                    .addComponent(lengthGUITF1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lengthGUIRBM)
+                    .addComponent(lengthGUIRBI))
                 .addContainerGap())
         );
 
         jPanel7.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Outer Diameter", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 1, 14))); // NOI18N
 
-        jTextField2.setText("jTextField2");
+        outerDiameterGUITF1.setText("jTextField2");
 
-        jRadioButton20.setText("Meters");
+        outerDiameterGUIRBM.setText("Meters");
 
-        jRadioButton21.setText("Inches");
+        outerDiameterGUIRBI.setText("Inches");
 
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
@@ -307,11 +309,11 @@ public class PipesRusGUI extends javax.swing.JFrame {
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel7Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(outerDiameterGUITF1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jRadioButton20)
+                .addComponent(outerDiameterGUIRBM)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jRadioButton21)
+                .addComponent(outerDiameterGUIRBI)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel7Layout.setVerticalGroup(
@@ -319,19 +321,19 @@ public class PipesRusGUI extends javax.swing.JFrame {
             .addGroup(jPanel7Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jRadioButton20)
-                    .addComponent(jRadioButton21))
+                    .addComponent(outerDiameterGUITF1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(outerDiameterGUIRBM)
+                    .addComponent(outerDiameterGUIRBI))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jPanel8.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Colour", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 1, 14))); // NOI18N
 
-        jRadioButton22.setText("No Colour");
+        colourGUIRBNoColour.setText("No Colour");
 
-        jRadioButton23.setText("1 Colour");
+        colourGUIRB1Colour.setText("1 Colour");
 
-        jRadioButton24.setText("2 Colours");
+        colourGUIRB2Colour.setText("2 Colours");
 
         javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
         jPanel8.setLayout(jPanel8Layout);
@@ -339,11 +341,11 @@ public class PipesRusGUI extends javax.swing.JFrame {
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel8Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jRadioButton22)
+                .addComponent(colourGUIRBNoColour)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jRadioButton23)
+                .addComponent(colourGUIRB1Colour)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jRadioButton24)
+                .addComponent(colourGUIRB2Colour)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel8Layout.setVerticalGroup(
@@ -351,9 +353,9 @@ public class PipesRusGUI extends javax.swing.JFrame {
             .addGroup(jPanel8Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jRadioButton22)
-                    .addComponent(jRadioButton23)
-                    .addComponent(jRadioButton24))
+                    .addComponent(colourGUIRBNoColour)
+                    .addComponent(colourGUIRB1Colour)
+                    .addComponent(colourGUIRB2Colour))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -362,10 +364,10 @@ public class PipesRusGUI extends javax.swing.JFrame {
 
         jLabel2.setText("Your pipe is available. Would you like to place an order?");
 
-        jRadioButton25.setText("Place order");
-        jRadioButton25.addActionListener(new java.awt.event.ActionListener() {
+        placeOrderGUIRB.setText("Place order");
+        placeOrderGUIRB.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton25ActionPerformed(evt);
+                placeOrderGUIRBActionPerformed(evt);
             }
         });
 
@@ -374,17 +376,17 @@ public class PipesRusGUI extends javax.swing.JFrame {
         jTextArea1.setText("Pipe #1\nPlastic Type ()\nInner Insualtion ()\nOuter Reinforcement ()\nChemical Resistance ()\nLength ()\nOuter Diameter ()\nColour ()");
         jScrollPane1.setViewportView(jTextArea1);
 
-        jButton2.setLabel("Checkout");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        checkOutGUIButton.setLabel("Checkout");
+        checkOutGUIButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                checkOutGUIButtonActionPerformed(evt);
             }
         });
 
-        jButton3.setLabel("Save Order");
+        saveOrderGUIButton.setLabel("Save Order");
 
-        jButton4.setForeground(new java.awt.Color(153, 153, 153));
-        jButton4.setLabel("Next Order");
+        nextOrderGUIButton.setForeground(new java.awt.Color(153, 153, 153));
+        nextOrderGUIButton.setLabel("Next Order");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -398,15 +400,15 @@ public class PipesRusGUI extends javax.swing.JFrame {
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel1)
                             .addComponent(jLabel2)
-                            .addComponent(jRadioButton25))
+                            .addComponent(placeOrderGUIRB))
                         .addGap(0, 12, Short.MAX_VALUE))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(jButton2)
+                        .addComponent(checkOutGUIButton)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton3)
+                        .addComponent(saveOrderGUIButton)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton4)))
+                        .addComponent(nextOrderGUIButton)))
                 .addContainerGap())
         );
         jPanel1Layout.setVerticalGroup(
@@ -416,14 +418,14 @@ public class PipesRusGUI extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton25)
+                .addComponent(placeOrderGUIRB)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 154, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton2)
-                    .addComponent(jButton3)
-                    .addComponent(jButton4))
+                    .addComponent(checkOutGUIButton)
+                    .addComponent(saveOrderGUIButton)
+                    .addComponent(nextOrderGUIButton))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -464,50 +466,51 @@ public class PipesRusGUI extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton1ActionPerformed
+    private void innerInsulationGUIRBYActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_innerInsulationGUIRBYActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton1ActionPerformed
+    }//GEN-LAST:event_innerInsulationGUIRBYActionPerformed
 
-    private void jRadioButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton3ActionPerformed
+    private void plasticTypeGUIRB1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_plasticTypeGUIRB1ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton3ActionPerformed
+    }//GEN-LAST:event_plasticTypeGUIRB1ActionPerformed
 
-    private void jRadioButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton5ActionPerformed
+    private void plasticTypeGUIRB3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_plasticTypeGUIRB3ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton5ActionPerformed
+    }//GEN-LAST:event_plasticTypeGUIRB3ActionPerformed
 
-    private void jRadioButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton10ActionPerformed
+    private void outerReinforcementGUIRBYActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_outerReinforcementGUIRBYActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton10ActionPerformed
+    }//GEN-LAST:event_outerReinforcementGUIRBYActionPerformed
 
-    private void jRadioButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton11ActionPerformed
+    private void outerReinforcementGUIRBNActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_outerReinforcementGUIRBNActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton11ActionPerformed
+    }//GEN-LAST:event_outerReinforcementGUIRBNActionPerformed
 
-    private void jRadioButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton12ActionPerformed
+    private void plasticTypeGUIRBNIActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_plasticTypeGUIRBNIActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton12ActionPerformed
+    }//GEN-LAST:event_plasticTypeGUIRBNIActionPerformed
 
-    private void jRadioButton25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton25ActionPerformed
+    private void placeOrderGUIRBActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_placeOrderGUIRBActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton25ActionPerformed
+    }//GEN-LAST:event_placeOrderGUIRBActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void checkOutGUIButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_checkOutGUIButtonActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton2ActionPerformed
-    
-    ButtonGroup plasticType = new ButtonGroup();
-    plasticType.add(jRadioButton3);
+    }//GEN-LAST:event_checkOutGUIButtonActionPerformed
+ 
+    ButtonGroup pipeType = new ButtonGroup();{
+    pipeType.add(plasticTypeGUIRB1);
     plasticType.add(jRadioButton4);
     plasticType.add(jRadioButton5);
     plasticType.add(jRadioButton7);
     plasticType.add(jRadioButton8);
     plasticType.add(jRadioButton12);
-    
-    ButtonGroup innerInsulation = new ButtonGroup();
+    }
+    ButtonGroup innerInsulation = new ButtonGroup();{
     innerInsulation.add(jRadioButton1);
     innerInsulation.add(jRadioButton2);
     innerInsulation.add(jRadioButton13);
+    }
     
     
     /**
@@ -546,10 +549,17 @@ public class PipesRusGUI extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton checkOutGUIButton;
+    private javax.swing.JRadioButton chemicalResistanceGUIRBN;
+    private javax.swing.JRadioButton chemicalResistanceGUIRBNI;
+    private javax.swing.JRadioButton chemicalResistanceGUIRBY;
+    private javax.swing.JRadioButton colourGUIRB1Colour;
+    private javax.swing.JRadioButton colourGUIRB2Colour;
+    private javax.swing.JRadioButton colourGUIRBNoColour;
+    private javax.swing.JRadioButton innerInsulationGUIRBN;
+    private javax.swing.JRadioButton innerInsulationGUIRBNI;
+    private javax.swing.JRadioButton innerInsulationGUIRBY;
     private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel6;
@@ -561,37 +571,30 @@ public class PipesRusGUI extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel7;
     private javax.swing.JPanel jPanel8;
-    private javax.swing.JRadioButton jRadioButton1;
-    private javax.swing.JRadioButton jRadioButton10;
-    private javax.swing.JRadioButton jRadioButton11;
-    private javax.swing.JRadioButton jRadioButton12;
-    private javax.swing.JRadioButton jRadioButton13;
-    private javax.swing.JRadioButton jRadioButton14;
-    private javax.swing.JRadioButton jRadioButton15;
-    private javax.swing.JRadioButton jRadioButton16;
-    private javax.swing.JRadioButton jRadioButton17;
-    private javax.swing.JRadioButton jRadioButton18;
-    private javax.swing.JRadioButton jRadioButton19;
-    private javax.swing.JRadioButton jRadioButton2;
-    private javax.swing.JRadioButton jRadioButton20;
-    private javax.swing.JRadioButton jRadioButton21;
-    private javax.swing.JRadioButton jRadioButton22;
-    private javax.swing.JRadioButton jRadioButton23;
-    private javax.swing.JRadioButton jRadioButton24;
-    private javax.swing.JRadioButton jRadioButton25;
     private javax.swing.JRadioButton jRadioButton26;
-    private javax.swing.JRadioButton jRadioButton3;
-    private javax.swing.JRadioButton jRadioButton4;
-    private javax.swing.JRadioButton jRadioButton5;
     private javax.swing.JRadioButton jRadioButton6;
-    private javax.swing.JRadioButton jRadioButton7;
-    private javax.swing.JRadioButton jRadioButton8;
     private javax.swing.JRadioButton jRadioButton9;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextArea jTextArea1;
-    private javax.swing.JTextField jTextField1;
-    private javax.swing.JTextField jTextField2;
     private javax.swing.JTextField jTextField7;
+    private javax.swing.JRadioButton lengthGUIRBI;
+    private javax.swing.JRadioButton lengthGUIRBM;
+    private javax.swing.JTextField lengthGUITF1;
+    private javax.swing.JButton nextOrderGUIButton;
+    private javax.swing.JRadioButton outerDiameterGUIRBI;
+    private javax.swing.JRadioButton outerDiameterGUIRBM;
+    private javax.swing.JTextField outerDiameterGUITF1;
+    private javax.swing.JRadioButton outerReinforcementGUIRBN;
+    private javax.swing.JRadioButton outerReinforcementGUIRBNI;
+    private javax.swing.JRadioButton outerReinforcementGUIRBY;
+    private javax.swing.JRadioButton placeOrderGUIRB;
+    private javax.swing.JRadioButton plasticTypeGUIRB1;
+    private javax.swing.JRadioButton plasticTypeGUIRB2;
+    private javax.swing.JRadioButton plasticTypeGUIRB3;
+    private javax.swing.JRadioButton plasticTypeGUIRB4;
+    private javax.swing.JRadioButton plasticTypeGUIRB5;
+    private javax.swing.JRadioButton plasticTypeGUIRBNI;
+    private javax.swing.JButton saveOrderGUIButton;
     // End of variables declaration//GEN-END:variables
 }
 
