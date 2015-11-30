@@ -1,0 +1,10 @@
+courswork.PipesRusGUI$8
+courswork.PipesRusGUI$7
+courswork.PipesRusGUI$9
+courswork.PipesRusGUI
+courswork.PipesRusGUI$3
+courswork.PipesRusGUI$4
+courswork.PipesRusGUI$5
+courswork.PipesRusGUI$6
+courswork.PipesRusGUI$1
+courswork.PipesRusGUI$2
